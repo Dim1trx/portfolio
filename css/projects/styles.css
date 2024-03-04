@@ -1,0 +1,54 @@
+.projects{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    width: 100vh;
+    padding: 0% 2%;
+
+}
+
+.projects__item{
+    list-style: none;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #291940;
+    border-radius: 2rem;
+    width: 22rem;
+    height: 100%;
+    padding: 3% 0%;
+    gap: 1.5rem;
+}
+
+a{
+    color: white;
+}
+
+.project__img {
+    width: 40%; 
+    height: 40%; 
+    
+}
+
+.project__name{
+    font-family: var(--principal--font);
+    font-size: 1.2rem;
+    
+}
+
+.project__description{
+    font-family: var(--secundary--font);
+    width: 40vh;
+    font-size: 1rem;
+}
+
+@media (max-width: 1200px) {
+    .content{
+        flex-direction: column;
+    }
+}
